@@ -53,7 +53,7 @@ public class remote {
 		  System.out.println("Added name");
 		  Thread.sleep(4000);
 		  driver.findElement(By.xpath("//textarea[@name='address']")).click();
-		  driver.findElement(By.xpath("//textarea[@name='address']")).sendKeys("97 Devilal Colony TCP 2 Hisar Cantt Hisar Haryana 125006");
+		  driver.findElement(By.xpath("//textarea[@name='address']")).sendKeys("Hisar Haryana");
 		  System.out.println("Added Address");
 		  Thread.sleep(4000);
 		  driver.findElement(By.xpath("//input[@name='salary']")).click();
