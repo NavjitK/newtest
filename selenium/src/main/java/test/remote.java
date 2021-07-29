@@ -69,6 +69,10 @@ public class remote {
 		  driver.findElement(By.xpath("//a[contains(text(), 'Back')]"));
 		  System.out.println("Back To HomePage");
 		  Thread.sleep(4000);
+		  System.out.println("Deleting Record of Yogesh");
+		  driver.findElement(By.xpath("//a[@href='delete.php?id=5']")).click();
+		  driver.findElement(By.xpath("//input[@value='Yes']")).click();
+		  System.out.println("Record Deleted Sucessfully");
 		  driver.quit();
 	  }
 	  
