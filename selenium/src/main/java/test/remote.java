@@ -73,6 +73,7 @@ public class remote {
 		  driver.findElement(By.xpath("//a[@href='delete.php?id=5']")).click();
 		  driver.findElement(By.xpath("//input[@value='Yes']")).click();
 		  System.out.println("Record Deleted Sucessfully");
+		  Thread.sleep(4000);
 		  driver.quit();
 	  }
 	  
