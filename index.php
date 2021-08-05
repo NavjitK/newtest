@@ -51,6 +51,9 @@
                 <a href="#about" class="btn btn-secondary">About</a>
                 <a href="#contact" class="btn btn-success">Contact</a>
                 <a class="btn btn-warning" href="#signup">Sign Up</a>
+                <a href="#about" class="btn btn-secondary">AWS</a>
+                <a href="#contact" class="btn btn-success">Devops</a>
+                <a href="#projects" class="btn btn-info">Azure</a>
             </div>
         </div>
     </nav>
