@@ -49,11 +49,11 @@ public class remote {
 		  System.out.println("Clicked on Add new Employee");
 		  Thread.sleep(4000);
 		  driver.findElement(By.xpath("//input[@name='name']")).click();
-		  driver.findElement(By.xpath("//input[@name='name']")).sendKeys("Yogesh");
+		  driver.findElement(By.xpath("//input[@name='name']")).sendKeys("Harpreet");
 		  System.out.println("Added name");
 		  Thread.sleep(4000);
 		  driver.findElement(By.xpath("//textarea[@name='address']")).click();
-		  driver.findElement(By.xpath("//textarea[@name='address']")).sendKeys("Haryana");
+		  driver.findElement(By.xpath("//textarea[@name='address']")).sendKeys("Punjab");
 		  System.out.println("Added Address");
 		  Thread.sleep(4000);
 		  driver.findElement(By.xpath("//input[@name='salary']")).click();
