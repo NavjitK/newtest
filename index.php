@@ -53,6 +53,7 @@
                 <a class="btn btn-warning" href="#signup">Sign Up</a>
                 <a href="#about" class="btn btn-secondary">AWS</a>
                 <a href="#contact" class="btn btn-success">Devops</a>
+                <a href="#contact" class="btn btn-success">Azure</a>
             </div>
         </div>
     </nav>
